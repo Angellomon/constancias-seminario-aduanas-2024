@@ -24,3 +24,5 @@
 	/>
 	<button class="p-2 hover:underline" on:click={download}>Descargar</button>
 </div>
+
+<span>test email: test@test.com</span>
