@@ -4,13 +4,20 @@
 
 	let email = '';
 	let loading = false;
+	let invalidEmail = false;
+	let notFound = false;
 
 	async function download() {
 		if (!email || !browser) return;
 
 		loading = true;
+		invalidEmail = false;
+		notFound = false;
 
-		await downloadCertificate(email);
+		const errors = await downloadCertificate(email);
+
+		invalidEmail = errors.invalidEmail;
+		notFound = errors.notFound;
 
 		loading = false;
 	}
@@ -40,4 +47,16 @@
 	</button>
 </div>
 
-<span>test email: test@test.com</span>
+{#if invalidEmail}
+	<span class="text-red-600">Correo inválido</span>
+{/if}
+
+{#if notFound}
+	<span class="text-red-600">Correo no encontrado</span>
+{/if}
+
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<!-- svelte-ignore a11y-no-static-element-interactions -->
+<pre>test email: <span class="cursor-pointer" on:click={() => (email = 'test@test.com')}
+		>test@test.com</span
+	></pre>
