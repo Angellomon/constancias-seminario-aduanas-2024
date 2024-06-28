@@ -45,10 +45,12 @@
 
 <footer class="flex flex-col items-center justify-center w-full bg-ecstasy p-5">
 	<div class="h-[2px] mb-2 bg-white w-[50vw]"></div>
-	<div class="flex flex-wrap flex-row items-center justify-around">
+	<div class="mt-2 flex flex-wrap flex-row items-center justify-around">
 		{#each logos as logo}
-			<div class="m-3 flex justify-center items-center rounded-full w-20 h-20 bg-white">
-				<img class="max-h-14" src={logo.url} alt={logo.name} />
+			<div
+				class="m-1 p-3 sm:m-3 flex justify-center items-center rounded-full h-14 w-14 sm:w-20 sm:h-20 bg-white"
+			>
+				<img src={logo.url} alt={logo.name} />
 			</div>
 		{/each}
 	</div>
