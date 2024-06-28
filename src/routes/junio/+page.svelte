@@ -33,7 +33,9 @@
 	<HeaderTitle title="JUNIO" />
 
 	<main class=" flex flex-col justify-evenly items-center min-h-[30vh] sm:min-h-[50vh]">
-		<p class="text-center">Ingresa el correo electrónico con el cual te registraste</p>
+		<p class="text-xl sm:text-2xl text-center text-ecstasy-900">
+			Ingresa el correo electrónico con el cual te registraste
+		</p>
 
 		<div class="flex flex-row">
 			<input
