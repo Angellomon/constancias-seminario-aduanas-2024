@@ -2,7 +2,10 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		fontFamily: {
+			display: ['"Montserrat Regular"'],
+			body: ['"Montserrat Regular"']
+		}
 	},
 	plugins: []
 };

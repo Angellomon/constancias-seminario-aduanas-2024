@@ -1,4 +1,5 @@
 <h1>Constancias Seminario de Aduanas | Ciclo 2024</h1>
+<b>Constancias Seminario de Aduanas | Ciclo 2024</b>
 
 <p>Landing</p>
 
