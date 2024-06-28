@@ -43,10 +43,13 @@
 	];
 </script>
 
-<footer class=" w-full flex flex-wrap flex-row items-center justify-around bg-ecstasy p-5">
-	{#each logos as logo}
-		<div class="m-3 flex justify-center items-center rounded-full w-20 h-20 bg-white">
-			<img class="max-h-14" src={logo.url} alt={logo.name} />
-		</div>
-	{/each}
+<footer class="flex flex-col items-center justify-center w-full bg-ecstasy p-5">
+	<div class="h-[2px] mb-2 bg-white w-[50vw]"></div>
+	<div class="flex flex-wrap flex-row items-center justify-around">
+		{#each logos as logo}
+			<div class="m-3 flex justify-center items-center rounded-full w-20 h-20 bg-white">
+				<img class="max-h-14" src={logo.url} alt={logo.name} />
+			</div>
+		{/each}
+	</div>
 </footer>
