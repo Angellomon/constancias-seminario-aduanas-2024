@@ -40,7 +40,7 @@
 		<div class="flex flex-row">
 			<input
 				bind:value={email}
-				class="p-2 px-6 border border-ecstasy-200 text-ecstasy-800 rounded-l-full w-[60vw] sm:w-[30vw]"
+				class="p-2 px-6 border border-ecstasy-200 text-deep-oak rounded-l-full w-[60vw] sm:w-[30vw]"
 				type="email"
 				name="email"
 				id="email"
