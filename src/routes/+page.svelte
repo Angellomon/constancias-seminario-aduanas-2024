@@ -10,7 +10,7 @@
 		<div
 			class="absolute hidden sm:block z-10 bg-gradient-to-r from-white from-40% to-transparent h-full w-full"
 		></div>
-		<div class="absolute border-4 border-white h-[95%] w-[95%]"></div>
+		<div class="sm:hidden absolute border-4 border-white h-[95%] w-[95%]"></div>
 
 		<h1 class="mb-5 z-20 py-2 px-12 sm:text-4xl text-2xl text-white bg-ecstasy inline-flex">
 			<strong> CONSTANCIAS </strong>
