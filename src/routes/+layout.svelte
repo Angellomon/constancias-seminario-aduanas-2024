@@ -10,7 +10,7 @@
 	<meta property="og:description" content="" />
 	<meta
 		property="og:image"
-		content="https://constancias-seminario-aduanas-2024.onrender.com/favicon.png"
+		content="https://constancias-seminario-aduanas-2024.onrender.com/img/logo-seminario.png"
 	/>
 </svelte:head>
 
