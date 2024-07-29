@@ -20,7 +20,7 @@ function validateEmail(email) {
  * Download Certificate PDF
  * @param {string} email
  */
-export async function downloadCertificate(email) {
+export async function downloadCertificate(email, eventId = '12otozn0bz') {
 	const validEmail = validateEmail(email);
 
 	if (!validEmail)
@@ -29,7 +29,7 @@ export async function downloadCertificate(email) {
 			notFound: false
 		};
 
-	const result = await fetch(`/pdf/12otozn0bz?correo=${email}`);
+	const result = await fetch(`/pdf/${eventId}?correo=${email}`);
 
 	if (!result.ok || result.status == 404)
 		return {

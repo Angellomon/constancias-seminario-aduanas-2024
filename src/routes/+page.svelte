@@ -9,8 +9,16 @@
 	<main class="my-10 min-h-[30vh]">
 		<p class="text-2xl text-center my-12 text-deep-oak">INDICA A QUÉ EDICIÓN ASISTISTE</p>
 
-		<div class="flex justify-center items-center">
+		<div class="flex justify-center items-center gap-5">
 			<a href="/junio">
+				<button
+					class="py-4 px-8 shadow shadow-slate-800 rounded-full bg-slate-100 border-4 border-slate-300"
+				>
+					<strong class="text-ecstasy text-2xl"> JUNIO </strong>
+				</button>
+			</a>
+
+			<a href="/julio">
 				<button
 					class="py-4 px-8 shadow shadow-slate-800 rounded-full bg-slate-100 border-4 border-slate-300"
 				>

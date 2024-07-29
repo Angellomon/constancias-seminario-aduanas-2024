@@ -5,7 +5,8 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	server: {
 		proxy: {
-			'/pdf/12otozn0bz': 'https://constancias.umbrellaservices.angellos.net'
+			'/pdf/12otozn0bz': 'https://constancias.umbrellaservices.angellos.net',
+			'/pdf/2aijh1uap3': 'https://constancias.umbrellaservices.angellos.net'
 		}
 	},
 	ssr: {
