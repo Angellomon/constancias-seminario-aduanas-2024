@@ -22,7 +22,7 @@
 				<button
 					class="py-4 px-8 shadow shadow-slate-800 rounded-full bg-slate-100 border-4 border-slate-300"
 				>
-					<strong class="text-ecstasy text-2xl"> JUNIO </strong>
+					<strong class="text-ecstasy text-2xl"> JULIO </strong>
 				</button>
 			</a>
 		</div>
